@@ -1,0 +1,36 @@
+select {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    transition: transform 0.3s ease;
+    /* Apply transition effect to transform property */
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px red;
+    /* Move the box 5 pixels upward on hover */
+}
+
+.label {
+    background-color: white;
+    width: 12vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.nav-item {
+    margin-left: 25vw;
+}
+
+.nav-item:hover {
+
+    box-shadow: 5px 5px 5px red;
+}
