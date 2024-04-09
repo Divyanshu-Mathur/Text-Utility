@@ -40,8 +40,9 @@ export default function TextForm(props) {
           </div>
           <button disabled={text.length === 0} type='button' className=" btn btn-outline-danger mx-2 my-1" onClick={UpperCase} style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }}>Convert to upper case</button>
           <button disabled={text.length === 0} type='button' className="btn btn-outline-danger mx-2 my-1" onClick={LowerCase} style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }}>Convert to Lower case</button>
-          <button disabled={text.length === 0} type='button' className="btn btn-outline-danger mx-2 my-1" onClick={Clear} style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }}>Clear Text</button>
           <button disabled={text.length === 0} type='button' className="btn btn-outline-danger mx-2 my-1" onClick={CopyClip} style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }}>Copy to Clipboard</button>
+          <button disabled={text.length === 0} type='button' className="btn btn-outline-danger mx-2 my-1" onClick={Clear} style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }}>Clear Text</button>
+          
 
           <br />
 
