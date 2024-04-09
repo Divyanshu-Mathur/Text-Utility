@@ -45,7 +45,7 @@ export default function TextForm(props) {
           
 
           <br />
-
+          <div style={{ display: 'flex', alignItems: 'center' }}>
           <label className='label' style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white' }} htmlFor="fontStyle">Choose a font style:</label>
           <select style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }} disabled={text.length === 0} id="fontStyle" className=" btn-outline-danger mx-2 my-1" value={fontStyle} onChange={FontStyleChange}>
             <option style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }} value="Arial">Arial</option>
@@ -57,6 +57,7 @@ export default function TextForm(props) {
             <option style={{ backgroundColor: props.Mode === 'dark' ? 'black' : 'white', color: props.Mode === 'dark' ? 'white' : 'black' }} value="Courier New">Courier New</option>
 
           </select>
+          </div>
         </form>
       </div >
       <div className="container my-3">
